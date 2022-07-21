@@ -20,6 +20,7 @@
         margin-right: 50px;
     }
     .banner-text>p{
+        font-size: 0.5rem;
         text-align: center;
         padding-right: 50px;
         padding-bottom: 25px;
@@ -32,7 +33,7 @@
         font-size: 1rem;
     }
     .banner-img{
-        width: 60%;
+        width: 79%;
     }
     .blogs-nav{
         width: 100%;
