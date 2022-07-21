@@ -1,0 +1,88 @@
+/* ====================@MEDIA QUERY FOR MOBILE=================== */
+@media screen and (max-width: 375px) {
+    .container{
+        max-width: 375px;
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-text{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .banner-text>h1{
+        font-size: 1.7rem;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 50px;
+    }
+    .banner-text>p{
+        text-align: center;
+        padding-right: 50px;
+        padding-bottom: 25px;
+    }
+    #watch-live-btn{
+        font-size: 0.7rem;
+        margin-left: 35px;
+    }
+    .fa-angle-right{
+        font-size: 1rem;
+    }
+    .banner-img{
+        width: 60%;
+    }
+    .blogs-nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .blogs-nav>nav{
+        width: 0;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        margin-top: 70px;
+    }
+    .blog{
+        margin-left: 60px;
+    }
+    footer>h1{
+        font-size: 1.7rem;
+        margin-top: 50px;
+    }
+    hr{
+        width: 350px;
+    }
+    footer>ul{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer>ul>li{
+        margin: 10px;
+        
+    }
+    footer>ul>li>a{
+        font-size: 0.7rem;
+    }
+    .social-links{
+        display: flex;
+        margin-top: 30px;
+    }
+    .social-links>a{
+        text-decoration: none;
+        color: #c7c4c4;
+        margin: 5px;
+    }
+
+
+}
